@@ -1,13 +1,29 @@
 @mixin before_circle {
     &:before {
-        content: '';
+        content: 'Жечь Хохлов!';
         position: absolute;
+        font-size: 20px;
+        transform: rotate(15deg);
         z-index: -1;
-        top: -25%;
-        left: 0;
-        width: 36px;
-        height: 36px;
-        border-radius: 100%;
-        background: $main-color;
+        top: -50%;
+        left: -10%;
+        width: 30%;
+        height: 45px;
+        color: $main-color;
+    }
+}
+
+@mixin Blat {
+    &:before {
+        content: 'Жечь Жидов!';
+        position: absolute;
+        font-size: 20px;
+        transform: rotate(15deg);
+        z-index: -1;
+        top: -50%;
+        left: -10%;
+        width: 30%;
+        height: 45px;
+        color: $main-color;
     }
 }
