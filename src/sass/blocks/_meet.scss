@@ -1,0 +1,16 @@
+.meet{
+    background: url('../img/dark.webp') no-repeat 50%/cover;
+    min-height: 100vh;
+    position: relative;
+    &__pos{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .subtitle{
+        @include before_circle;
+        font-size: 20px;
+        text-align: center;
+    }
+}
